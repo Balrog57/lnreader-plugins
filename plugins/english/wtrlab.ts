@@ -494,7 +494,7 @@ class WTRLAB implements Plugin.PluginBase {
           'content-type': 'application/json+protobuf',
           // Generic public API key source also uses
           // Seen all over google
-          'X-Goog-API-Key': 'REMOVED_PUBLIC_API_KEY',
+          'X-Goog-API-Key': '',
         },
         'referrer': 'https://wtr-lab.com/',
         'body': `[[${JSON.stringify(contained)},"zh-CN","en"],"te_lib"]`,
